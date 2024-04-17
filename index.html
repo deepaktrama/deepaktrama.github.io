@@ -1,502 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!--
-    TODO:
-    strong headings for services
-    add ethics, technologies, clients
-    order sections
-    -->
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepak Trama</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-    <link href="css/clock.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
 </head>
-
-<body id="page-top" class="index">
-<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Deepak Trama</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Services</a>
-                    </li>
-                    <!--
-                    <li class="page-scroll">
-                        <a href="#tech">Tech</a>
-                    </li>
-                    -->
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!--<img class="img-responsive" src="img/profile.png" alt="">-->
-                    <div class="clockcontainer">
-                        <div class="clock">
-                            <div class="clock-body"></div>
-                            <div class="outer-face"></div>
-                            <div class="tick-face">
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thin-tick"></div>
-                                <div class="thick-tick"></div>
-                                <div class="thick-tick"></div>
-                                <div class="thick-tick"></div>
-                                <div class="thick-tick"></div>
-                                <div class="thick-tick"></div>
-                                <div class="thick-tick"></div>
-                                <div class="inner_face"></div>
-                            </div>
-                            <div class="under-center-dot"></div>
-                            <div class="seconds-container">
-                                <div class="seconds-outer-face"></div>
-                                <div class="inner-tick-face"></div>
-                                <div class="tick-face">
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="thin-tick"></div>
-                                    <div class="small-tick-face"></div>
-                                    <div class="thick-tick"></div>
-                                    <div class="thick-tick"></div>
-                                    <div class="thick-tick"></div>
-                                    <div class="thick-tick"></div>
-                                    <div class="thick-tick"></div>
-                                    <div class="thick-tick"></div>
-                                    <div class="s-inner-face"></div>
-                                </div>
-                                <div class="seconds"></div>
-                                <div class="under-center-dot"></div>
-                                <div class="center-dot"></div>
-                            </div>
-                            <div class="hours-container">
-                                <div class="hours"></div>
-                            </div>
-                            <div class="minutes-container">
-                                <div class="minutes"></div>
-                            </div>
-                            <div class="center-dot"></div>
-                        </div>
-                    </div>
-                    <div class="intro-text">
-                        <h1 class="name">Deepak Trama</h1>
-                        <hr class="star-light">
-                        <span class="skills">Lean Solutions, Honest Billing: Simplifying IT</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/icon.png" alt=""></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+				<li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Services</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-		<div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-		    <a href="#portfolioModalAppDev" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-			<h2>Application Development</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-		<div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-		    <a href="#portfolioModalConsulting" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-			<h2>Consulting</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-		<div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-		    <a href="#portfolioModalImprovement" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-			<h2>Improving UX, Performance</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-		<div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-		    <a href="#portfolioModalDocs" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-			<h2>Docs</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-		<div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-		    <a href="#portfolioModalAutomation" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-			<h2>Automation</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-		<div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-		    <a href="#portfolioModalTraining" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-			<h2>Training</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-                    <a href="#portfolioModalQA" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-                        <h2>QA</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-                <div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-                    <a href="#portfolioModalDevOps" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-                        <h2>Dev Ops</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>
-                <!-- <div class="col-sm-4 portfolio-item"> -->
-                <div class="col-sm-4 portfolio-item">
-                    <!--<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">-->
-                    <a href="#portfolioModalPorting" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!--<i class="fa fa-search-plus fa-3x"></i>-->
-                            </div>
-                        </div>
-                        <h2>Porting, Maintenance</h2>
-                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
-                    </a>
-                </div>	
-            </div>
+
+	
+	
+  <section id="home" class="home">
+      <h1>Deepak Trama</h1>
+      <h2>Lean Solutions, Honest Billing: Simplifying IT!</h2>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+  </section>
+
+  <section id="about" class="about">
+    <h1 class="heading">about us</h1>
+    <div class="row">
+        <div class="content">
+            <h3>Creativity, Vision and Expertise</h3>
+            <p>We specialize in providing LEAN self managing technical solutions to help your team meet their business goals.<br>
+                Whether it's Design and Automation, Frontend and Backend Development, Digital Marketing or Testing, our teams of skilled professionals will help bring your vision to reality.<br>
+                Learn more about us on
+                <a href="https://www.linkedin.com/in/deepaktrama">Linkedin</a>
+            </p>
+
         </div>
-    </section>
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>With more than 10 years of experience We have delivered IT services to companies like Microsoft, LG, Harman among others.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Our Strengths:</p>
-                    <!--<ul class="list-unstyled">-->
+    </div>
+  </section>
+
+  <section class="counters">
+<p style="font-size: 10px; ">&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></p>  
+ </section>
+
+  
+  <div class="pt-5 pb-5" style="background-color: #f2f2f2;">
+    <div class="container">
+      <div class="row">
+	  
+	  
+
+        <div class="section-head col-sm-12" id="service">
+          <h1>Our Services</h1>
+          <p>From the initial design and documentation, to the frontend and backend development,<br>to testing, training and marketing, we have you covered.
+            </p>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="item"> <span class="icon feature_box_col_one"> <img src="./images/services-design.jpg" alt="Image"></span>
+            <h2>DESIGN</h2>
+			<p style="font-size: 1px; ">&nbsp;</p>
+            <H4>Frontend Visual Design, Logo Design, Wireframes, Mockups, System & application architecture, Project Plans</H4>
+          </div>
+        </div>
+		
+        <div class="col-lg-4 col-sm-6">
+          <div class="item"> <span class="icon feature_box_col_one"><img src="./images/services-frontend.jpg" alt="Image"></i></span>
+            <h2>FRONTEND DEVELOPMENT</h2>
+			<p style="font-size: 1px; ">&nbsp;</p>
+            <H4>We develop Mobile apps, web sites, desktop and server applications.</H4>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="item"> <span class="icon feature_box_col_one"><img src="./images/services-testing.jpg" alt="Image"></i></span>
+            <h2>BACKEND DEVELOPMENT</h2>
+			<p style="font-size: 1px; ">&nbsp;</p>
+            <H4>We develop databases, web services, crm, middleware solutions and much more.</H4>
+          </div>
+        </div>
+		
+        <div class="col-lg-4 col-sm-6">
+          <div class="item"> <span class="icon feature_box_col_one"><img src="./images/services-training.jpg" alt="Image"></i></span>
+            <h2>DOCUMENTATION, TRAINING & TECH SUPPORT</h2>
+			<p style="font-size: 1px; ">&nbsp;</p>
+            <H4>We conduct Technical Trainings.<br> We also create Documentation, Code Examples and Starter Apps for your tech.</H4>
+          </div>
+        </div>
+		
+		
+		
+        <div class="col-lg-4 col-sm-6">
+          <div class="item"> <span class="icon feature_box_col_one"><img src="./images/services-seo.jpg" alt="Image"></i></span>
+            <h2>DIGITAL MARKETING AND SEO</h2>
+			<p style="font-size: 1px; ">&nbsp;</p>
+            <H4>We have considerable experience in digital marketing, as well as in SEO outreaches that channel traffic to highly optimized landing pages.</H4>
+          </div>
+        </div>
+		
+        <div class="col-lg-4 col-sm-6">
+          <div class="item"> <span class="icon feature_box_col_one"><img src="./images/services-automation.jpg" alt="Image"></i></span>
+            <h2>DEVOPS, AUTOMATION, QA</h2>
+			<p style="font-size: 1px; ">&nbsp;</p>
+            <H4>We cover continous integretion, build automation, setting up servers/services (active directory, gitlab, tfs, etc.), syncing dbs, automatically generating excel worksheets from the web, scraping websites, and more.<br><br>QA services include manual and automated testing and also functional, performance, security and UX reviews.</H4>
+          </div>
+        </div>
+		
+
+
+		
+
+		
+      </div>
+    </div>
+</div>
+
+
+
+    <section class="faq">
+      <h1 class="heading" style="margin-top: -2rem; color: #00bfff;" id="faq">DETAILS OF WHAT WE DO</h1>
+      <div class="row">
+          <div class="accordion-container">
+<div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>OUR PHILOSOPHY</h3>
+                  </div>
+                  <div class="accordion-body">
                     <ul>
-                        <li>
-                            Lean solutions
-                        </li>
-                        <li>
-                            Always learning
-                        </li>
-                        <li>
-                            Clear communication
-                        </li>
-                        <li>
-                            Relentless problem solving
-                        </li>
-                        <li>
-                            Technical excellence
-                        </li>
-                    </ul>
-                </div>
-                <!--
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-                -->
-            </div>
-        </div>
-    </section>
+                    <li>
+                        we use iterative processes like Agile and involve the customer in all key stages
+                    </li>
+                    <li>    
+                        we don't overengineer and love to design lean - for example we use <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"/>DRY</a>, <a href="https://simple.wikipedia.org/wiki/KISS_principle"/>KISS</a>, <a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it"/>YAGNI</a>, etc.
+                    </li>
+                    <li>
+we avoid vendor lock-ins and prefer OSS whenever possible
+</li>
+<li>
+we only take on contracts we are sure of fulfilling ethically and with high standards
+</li>
+<li>
+result oriented - staffing based on capabilities and work ethics rather than academic/qualifications/politics
+</li>
+</ul>
+                   </div>
+              </div>            
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>APPLICATION DEVELOPMENT</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p><b>We develop applications for Windows, Linux, Android and the web. We have experience in developing the following:</b><br>
 
-    <!-- Footer -->
-    <footer id="contact" class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>
-                            MIDC technology park
-                            <br>
-                            Talawade, Pune 412114
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Contact us</h3>
-                        <p>
-                        Github: @deepaktrama
-                        <br>
-                        Email: info@deepaktrama.com
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Deepak Trama</h3>
-                        <p>Lean Solutions, Honest Billing: Simplifying IT</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        This website was created using Twitter bootstrap and the freelancer template.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    Applications for businesses to manage human resources, inventory, corporate events, e-learning, equity trading and retail.<br>
+	Applications targeted towards consumers like FTP servers, Gmail add-ins, android apps, Microsoft office add-ins and chat clients </p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>CONSULTING</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p><b>We have experience in the following types of consulting engagements:</b><br>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModalAppDev" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>application Development</h2>
-                            <hr class="star-primary">
-                            <!-- <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt=""> -->
-
-                            <p>We develop applications for Windows, Linux, Android and the web. We have experience in developing the following:</p>
                             <ul class="list-inline item-details">
                                 <li>
-                                    Applications for <strong>businesses</strong> to manage human resources, inventory, corporate events, e-learning, equity trading, retail.
+                                    <strong>For new software development</strong> - Requirement analysis, project planning, solution &amp; technical architecture
                                 </li>
                                 <li>
-                                    Applications targeted towards <strong>consumers</strong> like FTP servers, Gmail add-ins, android apps, Microsoft office add-ins, chat clients
+                                    <strong>For existing software</strong> - Improving UX, Security, Performance, Architecture
+                                </li>
+                                <li>
+                                    <strong>For "difficult" technical projects</strong> - Determining feasability and creating prototypes quickly
+                                </li>
+                                <li>
+                                    <strong>For SDLC process improvements</strong> - implementing good practices like Scrum, TDD, CI, etc.
                                 </li>
                             </ul>
-                            <p>However we have gone out of our comfort zone in developing the following:</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    An application which allows people to play games like counter-strike, quake, etc. online!
-                                </li>
-                                <li>
-                                    An application which streams video from the raspberry pi
-                                </li>
-                            </ul>
-                            <!--<p>To see the tools and technologies which we use please see the tools section</p>-->
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModalConsulting" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Consulting</h2>
-                            <hr class="star-primary">
-                            <p>We have experience in the following types of consulting engagements</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    For new software development - Requirement analysis, project planning, solution & technical architecture
-                                </li>
-                                <li>
-                                    For existing software - Improving UX, Security, Performance, Architecture
-                                </li>
-                                <li>
-                                    For "difficult" technical projects - Determining feasability and creating prototypes quickly
-                                </li>
-                                <li>
-                                    For SDLC process improvements - implementing best practices like Scrum, TDD, CI, etc.
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModalImprovement" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Improving software</h2>
-                            <hr class="star-primary">
-                            <p>We have experience in improving software in the following areas:</p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>IMPROVING UX AND PERFORMANCE</h3>
+                  </div>
+                  <div class="accordion-body">
+                      
+                            <p><b>We have experience in improving software in the following areas:</b></p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong>UX</strong> - We use your software, collaborate with your users to understand pain points. Our goal is to minimize clicks and make the software dead easy to use.
@@ -508,114 +221,18 @@
                                     <strong>Security</strong> - We review your applications and services for exploitable weakness like injection attacks, unsecured sensitive data, etc. We do this using manual reviews and automated tools like injection tools, code analyzers, port scanners, network sniffers, etc.
                                 </li>
                                 <li>
-                                    <strong>Architecture</strong> - We collaborate with your engineers and review your source code to identify issues. Typically the problems we have fixed are overengineered systems and non structured source code. Our end goals are to make the architecture as real-time as possible with the minimum applications and services. Source code needs to be understandable with mimimum effort. We use the <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY principle</a> extensively here.
+                                    <strong>Architecture</strong> - We collaborate with your engineers and review your systems to identify issues. Typically the problems we have fixed are overengineered systems and non structured source code. Our end goals are to make the architecture as real-time as possible with the minimum applications and services. Source code needs to be MANAGEABLE with minimum effort. For instance We use principles like <a href="https://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a>, <a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it">YAGNI</a>, <a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a> extensively here.
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModalDocs" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Documentation</h2>
-                            <hr class="star-primary">
-                            <p>We have experience in creating documentation (in Pdf, Html, Word file formats), code samples, demo applications and videos (using Camtasia) for the following cases:</p>
-                            <ul class="list-inline item-details">
-                                <li><strong>Documentation for end users</strong> - We can create documentation which is easy to understand for end users using the software
-                                </li>
-                                <li><strong>Documentation for software engineers</strong> - We can create easy to understand and accurate technical documentation for software, frameworks, libraries, tools, etc. We can include step by step tutorials, flow and uml diagrams, code snippets, demo applications for easier learning
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModalAutomation" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Automation</h2>
-                            <hr class="star-primary">
-                            <p>We can automate software related tasks or business processes. Some of the cases which we have handled in the past include:</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong>Microsoft office automation</strong>: Creation of business reports, presentations with minimal user inputs. We typically use VSTO, VBA for this.
-                                </li>
-                                <li>
-                                    <strong>Device automation</strong>: reading and processing data from devices like generators, boilers and other equipment. We typically use a device specific extension coupled with a micro computer like the raspberry Pi for this. Software is typically implemented using C++ or Python.
-                                </li>
-                                <li>
-                                    <strong>Typical Enterprise Business process automation</strong>: We create applications and services to automate relevant business processes.
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModalTraining" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Technical Trainings</h2>
-                            <hr class="star-primary">
-                            <p>We provide technical trainings on the tools we have experience with. Training can be provided remotely via video conferencing or on-site</p>
-                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<div class="portfolio-modal modal fade" id="portfolioModalQA" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Quality Assurance</h2>
-                        <hr class="star-primary">
-                        <p>We have experience testing applications and services on windows, web and android. We provide the following QA related services:</p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>QUALITY ASSURANCE</h3>
+                  </div>
+                  <div class="accordion-body">
+                        <p><strong>We have experience testing applications and services on windows, web and android. We provide the following QA related services:</strong></p>
                         <ul class="list-inline item-details">
                             <li>
                                 QA strategy and planning
@@ -627,90 +244,209 @@
                                 Performance and Load Testing
                             </li>
                         </ul>
-                        <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModalDevOps" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Dev Ops</h2>
-                        <hr class="star-primary">
-                        <p>We have experience in deploying software on Windows, Web, Cloud (AWS, Google, Azure) and Android. We have experience using tools like Nagios, Jenkins, Docker, Ansible, Puppet, Chef</p>
-                        <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModalPorting" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body">
-                        <h2>Porting And Maintenance</h2>
-                        <hr class="star-primary">
-                        <p>We have experience helping customers maintain their existing software by fixing defects, adding enhancements. We also have experience in converting software to work with a different technology or a newer version of the same technology. Some examples of the engagements are:</p>
+                  </div>
+              </div>
+              <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>DEV OPS</h3>
+                  </div>
+                  <div class="accordion-body">
+                      <p>We have experience in deploying software on Windows, Web, Cloud (AWS, Google, Azure) and Android. We have experience using tools like Nagios, Jenkins, Docker, Ansible, Puppet, Chef</p>
+                  </div>
+              </div>
+			  
+			               <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>AUTOMATION</h3>
+                  </div>
+                  <div class="accordion-body">
+   
+                            <p><strong>We can automate software related tasks or business processes. Some of the cases which we have handled in the past include:</strong></p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong>Microsoft office automation</strong>: Creation of business reports, presentations with minimal user inputs. We typically use VSTO, VBA for this.
+                                </li>
+                                <li>
+                                    <strong>Device automation</strong>: reading and processing data from devices like generators, boilers and other equipment. We typically use a device specific extension coupled with a micro computer like the raspberry Pi for this. Software is typically implemented using C++ or Python.
+                                </li>
+                                <li>
+                                    <strong>Typical Enterprise Business process automation</strong>: We create applications and services to automate relevant business processes.
+                                </li>
+                            </ul>
+                  </div>
+              </div>
+			  
+			               <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>PORTING AND MAINTENANCE</h3>
+                  </div>
+                  <div class="accordion-body">
+
                         <ul class="list-inline item-details">
                             <li>
-                                Converting a application to support a newer version of the operating system (Win7, 8, 10)
+                                Converting an application to support a newer version of the operating system (Win7, 8, 10)
                             </li>
                             <li>
-                                Converting a application written for one os to work on a different os (Unix to Windows and vice versa)
+                                Converting an application written for one os to work on a different os (Unix to Windows and vice versa)
                             </li>
                             <li>
-                                Converting a application developed with one tool to use a different one (.NET to Delphi, VB to C++)
+                                Converting an application developed with one tool to use a different one (.NET to Delphi, VB to C++)
                             </li>
                             <li>
-                                Migrating a application working with one framework to work on a newer version (Sharepoint, Dot net nuke, etc.)
+                                Migrating an application working with one framework to work on a newer version (Sharepoint, Dot net nuke, etc.)
                             </li>
                         </ul>
-                        <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                  </div>
+              </div>
+			  
+			               <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>TECHNICAL TRAINING</h3>
+                  </div>
+                  <div class="accordion-body">
+<p>We provide comprehensive technical training courses on the tools we have experience with. Training can be provided remotely via video conferencing or on-site</p>
+                  </div>
+              </div>
+			  
+			  
+			               <div class="accordion">
+                  <div class="accordion-header">
+                      <span>+</span>
+                      <h3>DOCUMENTATION</h3>
+                  </div>
+                  <div class="accordion-body">
+                            <p><strong>We have experience in creating documentation (in Pdf, Html, Word file formats), code samples, demo applications and videos (using Camtasia) for the following cases:</strong></p>
+                            <ul class="list-inline item-details">
+                                <li><strong>Documentation for end users</strong> - We can create documentation which is easy to understand for end users using the software
+                                </li>
+                                <li><strong>Documentation for engineers</strong> - We can create easy to understand and accurate technical documentation for software, frameworks, libraries, tools, etc. We can include step by step tutorials, flow and uml diagrams, code snippets, demo applications for easier learning
+                                </li>
+                            </ul>
+                  </div>
+              </div>
+			  <p style="font-size: 3px; ">&nbsp;</p>
+          </div>
+      </div>
+  </section>
+
+  
+  
+ 
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+  <section class="counters">
+<p style="font-size: 10px; ">&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></p>  
+<h2 id="clients"></h2>
+ </section>
+
+
+<div class="clients mt-100">
+    <div class="container">
+        <div class="section-header">
+
+
+
+            <h2>Our Clients</h2>
+            <p>
+                Building Businesses Into Tomorrow
+            </p>
+        </div>
+        <div class="owl-carousel clients-carousel">
+            <img src="./images/clients-microsoft.png" alt="Client Logo">
+            <img src="./images/clients-lg.png" alt="Client Logo">
+            <img src="./images/clients-samsung.png" alt="Client Logo">
+            <img src="./images/clients-stratiko.png" alt="Client Logo">
+            <img src="./images/clients-daostreet.png" alt="Client Logo">
+			<img src="./images/clients-dns.png" alt="Client Logo">
+        </div>
+    </div>
+</div>
+<a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+  <section class="counters">
+    <div class="container">
+        <div>
+            <i class="far fa-clock fa-4x"></i>
+            <div class="counter" data-target="68400">0</div>
+            <h3>Working Hours</h3>
+        </div>
+        <div>
+            <i class="fas fa-gift fa-4x"></i>
+            <div class="counter" data-target="60">0</div>
+            <h3>Completed Projects</h3>
+        </div>
+        <div>
+            <i class="fas fa-users fa-4x"></i>
+            <div class="counter" data-target="16">0</div>
+            <h3>Happy Clients</h3>
+        </div>
+        <div>
+            <i class="fas fa-award fa-4x"></i>
+            <div class="counter" data-target="2">0</div>
+            <h3>Awards Received</h3>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h1 class="heading">get in touch!</h1>
+</section>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h1>Location</h1>
+                        <h2>
+                            MIDC tech park,
+                            Talawade,
+                            Pune,
+                            India
+                        </h2>
+
+                    </div>
+<div class="footer-col col-md-4">
+    <h1>Online</h1>
+    <h2>
+        <a href="mailto:deepaktestqa@gmail.com" style="margin-right: 10px;"><i class="far fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/deepaktrama" target="_blank" style="margin-right: 10px;"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/deepaktrama" target="_blank"><i class="fab fa-github"></i></a>
+    </h2>
+</div>
+                    <div class="footer-col col-md-4">
+                        <h1>About Deepak Trama</h1>
+                        <h2>We provide information technology services for your business.</h2>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+<section id="contact" class="contact">
+    <h2>&nbsp;</h2>
+</section>
 
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+  <section class="contact">
+<p style="font-size: 10px; ">&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br></p>  
+<p style="font-size: 10px; ">&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;</p>  
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+ 
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+ </section>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-    <script src="js/clock.js"></script>
-
+  <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
 </body>
-
 </html>
